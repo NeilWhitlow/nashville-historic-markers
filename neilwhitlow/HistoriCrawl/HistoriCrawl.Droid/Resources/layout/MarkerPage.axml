@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/marker_image"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="#ffffff"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon" />
+        <TextView
+            android:id="@+id/marker_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="20dp"
+            android:layout_below="@id/marker_image"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/marker_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="20dp"
+            android:layout_below="@id/marker_title"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/marker_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="20dp"
+            android:layout_below="@id/marker_description"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/marker_latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingBottom="20dp"
+            android:layout_below="@id/marker_location"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/marker_longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="20dp"
+            android:layout_below="@id/marker_location"
+            android:layout_toRightOf="@id/marker_latitude"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</ScrollView>
