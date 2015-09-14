@@ -10,7 +10,8 @@ When we get the selected item from the ListView, it is returned as a Java object
 In case the device does not have a connection, cache the data in simple json format to disk.
  
 
-
+### MarkerAdapter ###
+* [Recycle Views and Use ViewHolder Pattern] (https://blog.xamarin.com/creating-highly-performant-smooth-scrolling-android-listviews/)
 
 ###MarkerActivity (detail page)###
 
