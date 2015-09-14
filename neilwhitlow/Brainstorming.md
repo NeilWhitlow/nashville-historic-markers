@@ -2,7 +2,12 @@
 
 ###MainActivity###
 
-* #### Cache Data In Json Format ####
+####Pass Detail To MarkerActivity In Intent####
+Serialize the selected Marker to json, then pass in Intent.
+
+####Cache Data In Json Format####
+In case the device does not have a connection, cache the data in simple json format to disk.
+ 
 
 
 
