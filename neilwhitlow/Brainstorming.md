@@ -3,8 +3,7 @@
 ###MainActivity###
 
 * ####Pass Detail To MarkerActivity In Intent####
-Serialize the selected Marker to json, then pass in Intent.  
-
+Serialize the selected Marker to json, then pass in Intent. 
 When we get the selected item from the ListView, it is returned as a Java object. The following post helped me around casting issued to turn that object back into a strongly typed Marker object [Cast Java Lang Object to CLR type](https://forums.xamarin.com/discussion/14863/cannot-cast-single-custom-listview-row-to-its-lists-type)
 
 * ####Cache Data In Json Format####
