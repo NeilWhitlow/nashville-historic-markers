@@ -10,7 +10,7 @@ When we get the selected item from the ListView, it is returned as a Java object
 In case the device does not have a connection, cache the data in simple json format to disk.
  
 * ####Toolbar or Action Bar####
-Toobar with Exit menu to begin with. Depending on Android target and AppCompat, maybe [Toolbar?] (https://blog.xamarin.com/android-tips-hello-toolbar-goodbye-action-bar/)
+Action Bar with Exit menu to begin with. Depending on Android target and AppCompat, maybe [Toolbar?] (https://blog.xamarin.com/android-tips-hello-toolbar-goodbye-action-bar/)
 
 
 ### MarkerAdapter ###
